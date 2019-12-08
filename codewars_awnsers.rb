@@ -1,6 +1,15 @@
 
 
 
+####### return reverce order 
+# def descending_order(n)
+#   n.to_s.split(//).sort.reverse.join.to_i
+# end
+
+# print descending_order(0)
+# print descending_order(123456789)
+######################
+
 
 
 
