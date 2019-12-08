@@ -1,4 +1,22 @@
 
+########WORKING all are odd or even except one, return it
+#########################
+def find_outlier(integers)
+  count = 0
+  integers.each do |num|
+    if num.even?
+      count +=1
+    end
+  end
+  count
+  if count >= 2
+    integers.each{|num| return num if num.odd?}
+  elsif count < 2
+    integers.each{|num| return num if num.even?}
+  end
+end
+#########################
+
 
 #### WORKING
 ########### RETURN TOTAL WHEN ONE LONG 
