@@ -1,5 +1,35 @@
 
+########### WORKING MINUS STRINGS FROM INTEGERS
+# # def div_con(x)
+# #   strings = []
+# #   numbers = []
+# #   x.each{|num| strings.push(num.to_i) if num.is_a? String}
+# #   x.each{|num| numbers.push(num) if num.is_a? Integer}
+# #   print numbers.sum - strings.sum 
+# # end
 
+
+# def div_con(x)
+#   strings = []
+#   numbers = []
+#   x.each{|num| 
+#     strings.push(num.to_i) if num.is_a? String
+#     numbers.push(num) if num.is_a? Integer
+#   }
+#   return numbers.sum - strings.sum 
+# end
+###########################
+
+
+################ WORKING print length of shorttedt word
+# def find_short(s)
+#     l = s.split.min {|x,y| x.size <=> y.size}.length
+
+#     return l # l: length of the shortest word
+# end
+
+# print find_short("bitcoin take over the world maybe who knows perhaps")
+#####################
 
 ####### return reverce order 
 # def descending_order(n)
