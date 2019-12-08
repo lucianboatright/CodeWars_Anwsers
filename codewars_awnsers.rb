@@ -1,4 +1,19 @@
 
+########### WORKNG Mulitplt char but index num first char is cap
+# def accum(s)
+#   s.chars.each_with_index.map{ |c, i| c.upcase + c.downcase * i }.join('-')
+# end
+# def accu(string)
+#   array = []
+#   count = 0
+#   string.split(//).each_with_index do |letter,index|
+#     array.push(letter.downcase*(index+1))
+#   end
+#   print array.join("-").capitalize.gsub(/-[a-z]/){|s|s.upcase}
+# end
+#############################
+
+
 # ########### CAPITALIZE EVER OTHER LETTER
 # def weirdcase string
 #   string.split(' ').map do |word|
