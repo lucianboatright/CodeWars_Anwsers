@@ -1,4 +1,31 @@
 
+
+#### WORKING
+########### RETURN TOTAL WHEN ONE LONG 
+# def digital_root(n)
+#   n < 10 ? n : digital_root(n / 10 + n % 10)
+# end
+
+# def digital_root(n)
+#   n < 10 ? n : digital_root(n.digits.sum)
+# end
+
+# def digital_root(n)
+#   numbers = []
+#   total = 0
+#   count = 0
+#   if n.to_s.split(//).length == 1
+#     return n
+#   else
+#     string = n.to_s.split(//)
+#     string.each do |num|
+#       numbers.push(num.to_i)
+#     end
+#     numbers.each do |num|
+#       total += num
+#     end
+##################################    
+
 ##### WORKING CHECK IF ITEM IS IN STRING                                                    
 # def getCount(inputStr)
 #   count = 0
