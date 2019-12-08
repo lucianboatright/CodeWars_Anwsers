@@ -1,4 +1,20 @@
 
+# ##########. WORKING return number of duplicates 
+# def duplicate_count(text)
+#   ('a'..'z').count { |c| text.downcase.count(c) > 1 }
+# end
+
+# def duplicate_count(text)
+#   frequencies = Hash.new(0)
+#   text.downcase.split("").each{|num| frequencies[num]+= 1}
+#   frequencies
+#   # return frequencies.values.max
+#   count = 0
+#   frequencies.each {|k,v| count +=1 if v > 1}
+#   count
+# end
+# ############################
+
 ########### WORKING MINUS STRINGS FROM INTEGERS
 # # def div_con(x)
 # #   strings = []
