@@ -1,4 +1,22 @@
 
+##### WORKING CHECK IF ITEM IS IN STRING                                                    
+# def getCount(inputStr)
+#   count = 0
+#   inputStr.split(//).each do |letter|
+#     if (['a','e','i','o','u']).index(letter)
+#       count += 1
+#     end  
+  
+#   end
+#   count
+# end
+
+# # if a.index('dog')
+# #     puts "dog exists in the array"
+# # end
+# # 'Unicorn'.in?(['Cat', 'Dog', 'Bird'])
+# puts getCount("abracadabra")
+
 ########### WORKNG Mulitplt char but index num first char is cap
 # def accum(s)
 #   s.chars.each_with_index.map{ |c, i| c.upcase + c.downcase * i }.join('-')
