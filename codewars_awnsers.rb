@@ -1,4 +1,16 @@
 
+# ########### CAPITALIZE EVER OTHER LETTER
+# def weirdcase string
+#   string.split(' ').map do |word|
+#     word.split('').map.with_index do |l,idx|
+#     idx % 2 == 0 && idx >= 0 ? word[idx].upcase : l 
+#     end 
+#     .join('')
+#   end 
+#   .flatten.join(' ')
+# end
+# ###########################
+
 # ##########. WORKING return number of duplicates 
 # def duplicate_count(text)
 #   ('a'..'z').count { |c| text.downcase.count(c) > 1 }
